@@ -1,0 +1,8 @@
+# Configuration
+jms_serializer:
+    metadata:
+        auto_detection: true
+        directories:
+            ExampleBundle:
+                namespace_prefix: "AppBundle"
+                path: "@ExampleBundle/Resources/config/serializer"

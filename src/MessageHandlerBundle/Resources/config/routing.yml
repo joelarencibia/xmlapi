@@ -1,0 +1,14 @@
+message_handler_homepage:
+    path:     /
+    defaults: { _controller: MessageHandlerBundle:Default:index }
+
+
+service_ping_handler:
+    type: rest
+    prefix: /
+    resource: MessageHandlerBundle\Controller\PingController
+
+service_reverse_handler:
+    type: rest
+    prefix: /
+    resource: MessageHandlerBundle\Controller\ReverseController

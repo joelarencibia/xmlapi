@@ -1,0 +1,6 @@
+MessageHandlerBundle\Entity\Message:
+    exclusion_policy: ALL
+    properties:
+        xml:
+            expose: true
+            groups: [message]

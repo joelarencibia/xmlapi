@@ -1,0 +1,7 @@
+message_handler:
+    resource: "@MessageHandlerBundle/Resources/config/routing.yml"
+    prefix:   /
+
+NelmioApiDocBundle:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /api/doc
